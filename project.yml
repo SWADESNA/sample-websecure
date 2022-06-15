@@ -1,0 +1,18 @@
+environment: {}
+parameters: {}
+packages:
+  - name: sample
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: hello
+        binary: false
+        main: ''
+        runtime: 'nodejs:default'
+        web: true
+        webSecure: ${MY_SECRET}
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
