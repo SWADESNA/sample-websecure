@@ -11,7 +11,7 @@ packages:
         main: ''
         runtime: 'nodejs:default'
         web: true
-        webSecure: test
+        webSecure: "test"
         parameters: {}
         environment: {}
         annotations: {}
